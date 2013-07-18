@@ -3,6 +3,8 @@ CHANGELOG OpenTTD Estonian Town Names
 ========================================================================
 ------------------------------------------------------------------------
 
+- Added extensions to distribution readme and license files.
+
 Release 0.1
 -----------
 

@@ -25,8 +25,8 @@ ${NMLC} --grf="${ROOT}/build/${BUILD}/${NAME}.grf" \
         --default-lang="english.lng" \
         "${ROOT}/src/${NAME}.nml"
 
-cp ${ROOT}/LICENSE.md ${ROOT}/build/${BUILD}/license
-cp ${ROOT}/README.md ${ROOT}/build/${BUILD}/readme
+cp ${ROOT}/LICENSE.md ${ROOT}/build/${BUILD}/license.txt
+cp ${ROOT}/README.md ${ROOT}/build/${BUILD}/readme.txt
 cd "${ROOT}/build/"
 ${TAR} -cf "${ROOT}/dist/${BUILD}.tar" "${BUILD}"
 rm -R "${ROOT}/build/${BUILD}"
