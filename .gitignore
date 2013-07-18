@@ -1,0 +1,12 @@
+*.orig
+*.core
+*.rej
+*~
+*.swp
+*.tmp
+*.bak
+.*\#.*\#$
+
+parsetab.py
+dist/
+build/
