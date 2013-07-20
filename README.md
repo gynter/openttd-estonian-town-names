@@ -24,25 +24,35 @@ Please use [BaNaNaS](http://bananas.openttd.org) for installation.
 3. Building from the source on Linux
 ------------------------------------
 
-- [Install NML with all the requirements](http://newgrf-specs.tt-wiki.net/wiki/NML:Getting_started#Installation)
-
-Grab the latest source from
+- [Install NML with all the requirements](http://newgrf-specs.tt-wiki.net/wiki/NML:Getting_started#Linux)
+- Grab the latest source from
 <https://github.com/gynter/openttd-estonian-town-names/archive/master.zip>
 and unzip it.
 
-*Note: You can also get the sources using the 
-[GIT](http://git-scm.com/book/en/Getting-Started-Installing-Git) and 
-cloning the git://github.com/gynter/openttd-estonian-town-names.git 
-repository.*
+    *Note: You can also get the sources using the 
+    [GIT](http://git-scm.com/book/en/Getting-Started-Installing-Git) and 
+    cloning the `git://github.com/gynter/openttd-estonian-town-names.git`
+    repository.*
 
-Build the NewGRF:
+- Build the NewGRF:
 
-    $ ./make.sh
+        $ ./make.sh
+- Follow the instructions on the screen and copy the NewGRF archive to
+  the OpenTTD NewGRF directory.
 
-Copy the NewGRF archive to the OpenTTD NewGRF directory (X is
-the version):
+**NB: Compiling is broken with the NML 0.3.0 (r2085). You need to apply
+[this patch](http://sprunge.us/SHid) and compile NML from source. To do so:**
 
-    $ cp dist/estonian_town_names-X.tar ~/.openttd/newgrf/
+- [Optain the NML source](http://bundles.openttdcoop.org/nml/nightlies/r2085/);
+- Extract the sources and `cd` to the sources directory;
+- Apply the patch:
+
+        $ wget http://sprunge.us/SHid
+        $ patch -p1 < SHid
+- Make and install NML:
+
+        $ make
+        $ make install
 
 4. Configuration
 ----------------

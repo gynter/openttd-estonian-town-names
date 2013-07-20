@@ -1,6 +1,6 @@
 ##grflangid 0x34
 STR_GRF_NAME                    :Eesti Linnade Nimed {VERSION}
-STR_GRF_DESCRIPTION             :{}{ORANGE}Eesti Linnade Nimed{SILVER}Käesolev laiendus annab võimaluse kasutada OpenTTD linnade nimedena Eestis asuvate linnade, alevite ja külade nimesid.{}{}{BLACK}Autor: {SILVER}{AUTHORS}{}{BLACK}Litsents: {SILVER}{LICENSE}
+STR_GRF_DESCRIPTION             :{}{ORANGE}Eesti Linnade Nimed{}{SILVER}Käesolev laiendus annab võimaluse kasutada linnade nimedena Eestis reaalselt eksisteerivate linnade, alevite ja külade nimesid.{}{}{BLACK}Autor: {SILVER}{AUTHORS}{}{BLACK}Litsents: {SILVER}{LICENSE}
 STR_GRF_URL                     :{GIT_URL}
 
 STR_GAME_OPTIONS_TOWN_NAME      :Eesti
