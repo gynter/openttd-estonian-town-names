@@ -1,12 +1,15 @@
+# Other.
 *.orig
 *.core
 *.rej
 *~
 *.swp
+*.log
 *.tmp
 *.bak
 .*\#.*\#$
 
+# Build.
 parsetab.py
 dist/
 build/

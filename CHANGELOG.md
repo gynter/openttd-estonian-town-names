@@ -3,6 +3,10 @@ CHANGELOG OpenTTD Estonian Town Names
 ========================================================================
 ------------------------------------------------------------------------
 
+- Removed NML patching from README.md, it has been fixed since NML
+  revision 2087;
+- Small rearrangement in `.gitignore`.
+
 Release 0.2 (2013-07-20)
 ------------------------
 
