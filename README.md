@@ -40,20 +40,6 @@ and unzip it.
 - Follow the instructions on the screen and copy the NewGRF archive to
   the OpenTTD NewGRF directory.
 
-**NB: Compiling is broken with the NML 0.3.0 (r2085). You need to apply
-[this patch](http://sprunge.us/SHid) and compile NML from source. To do so:**
-
-- [Optain the NML source](http://bundles.openttdcoop.org/nml/nightlies/r2085/);
-- Extract the sources and `cd` to the sources directory;
-- Apply the patch:
-
-        $ wget http://sprunge.us/SHid
-        $ patch -p1 < SHid
-- Make and install NML:
-
-        $ make
-        $ make install
-
 4. Configuration
 ----------------
 
