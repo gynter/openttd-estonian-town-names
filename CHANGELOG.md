@@ -3,14 +3,18 @@ CHANGELOG OpenTTD Estonian Town Names
 ========================================================================
 ------------------------------------------------------------------------
 
+v0.2.1 (2013-10-30)
+-------------------
+
+- Using Semantic Versioning system for versioning;
+- Changes in documentation;
+- Small rearrangement in `.gitignore`;
 - Removed NML patching from README.md, it has been fixed since NML
-  revision 2087;
-- Small rearrangement in `.gitignore`.
+  revision 2087.
 
-Release 0.2 (2013-07-20)
-------------------------
+v0.2.0 (2013-07-20)
+-------------------
 
-- Added `.txt` extension to distribution `readme` and `license` files;
 - Added release dates to changelog;
 - Added `changelog.txt` to distribution archive;
 - Renamed ditsribution archive filename to BaNaNaS style;
@@ -19,10 +23,11 @@ Release 0.2 (2013-07-20)
 - Added installation info and some comments to `make.sh` script;
 - Updated town name probabilities;
 - Pushed up revision;
-- Changes in language files and documentation.
+- Changes in language files and documentation;
+- Added `.txt` extension to distribution `readme` and `license` files.
 
-Release 0.1 (2013-07-19)
-------------------------
+v0.1.0 (2013-07-19)
+-------------------
 
 - Project initialization with more than 4000 city, town and village
   names.
