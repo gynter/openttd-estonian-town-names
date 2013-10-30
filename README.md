@@ -54,15 +54,15 @@ and extract the archive to the chosen destination directory.
 ----------------
 
 Execute OpenTTD. Choose *NewGRF Settings* and enable the NewGRF. Then
-choose *Game Options* and select *Estonian* from *Town names* 
+choose *Game Options* and select *Estonian* from *Town names*
 selection menu.
 
 6. License
 ----------
 
-This software is licensed as described in the file `LICENSE.md`, which 
-You should have received as part of this distribution. The terms are 
-also available at 
+This software is licensed as described in the file `LICENSE.md`, which
+You should have received as part of this distribution. The terms are
+also available at
 <https://github.com/gynter/openttd-estonian-town-names/blob/master/LICENSE.md>.
 
 7. Support
